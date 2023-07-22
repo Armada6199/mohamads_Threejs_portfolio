@@ -40,7 +40,7 @@ const About = () => {
         specialize in Front-End Development and I'm willing to dedicate my full time and effort
       to excel and compete in my profession.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex justify-center flex-wrap gap-10'>
         {services.map((service,index)=><ServiceCard key={service.title} index={index} {...service}/>)}
       </div>
     </motion.div>
