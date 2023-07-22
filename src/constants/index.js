@@ -186,7 +186,7 @@ import {
     {
       name: "Elite Sands",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "During My Academic journey at Code fellows, we had the opportunity to work on multiple projects , Elite Sands was the first one and the most exciting because it was the first team project.",
       tags: [
         {
           name: "React Js",
@@ -211,7 +211,7 @@ import {
     {
       name: "GERICHT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The GERICHT website is a visually stunning and user-friendly platform that echoes the elegance and charm of the restaurant itself. With a modern and intuitive design, visitors are immediately drawn into the culinary world of GERICHT. The website's layout is thoughtfully organized, making it easy for users to navigate through various sections seamlessly.",
       tags: [
         {
           name: "react",
@@ -232,7 +232,7 @@ import {
     {
       name: "Book Heaven",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "BookHeaven is an innovative online platform designed for book lovers and avid readers alike. Our mission is to connect like-minded individuals, recommending thought-provoking reads, and facilitating book trades to foster a vibrant and engaged reading community. Whether you're seeking your next literary adventure or hoping to share your favorite books with others, BookHeaven is the ultimate destination to immerse yourself in the world of books.",
       tags: [
         {
           name: "Angular",
