@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "./hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   index,
@@ -15,9 +16,11 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deployed_live_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <Link className='cursor-pointer' to={deployed_live_link}>
       <Tilt
         options={{
           max: 45,
@@ -63,6 +66,8 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
+      </Link>
+    
     </motion.div>
   );
 };

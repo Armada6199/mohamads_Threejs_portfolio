@@ -204,6 +204,7 @@ import {
       ],
       image:EliteSands,
       source_code_link: "https://github.com/orgs/prep-course-project/repositories",
+      deployed_live_link:'https://prep-project.netlify.app/'
     },
     {
       name: "GERICHT",
@@ -225,6 +226,7 @@ import {
       ],
       image: Gerchint,
       source_code_link: "https://github.com/Armada6199/resturant",
+      deployed_live_link:'https://mohamadsabdeen-resturant-template.netlify.app/'
     },
     {
       name: "Book Heaven",
@@ -246,6 +248,7 @@ import {
       ],
       image: BookHeaven,
       source_code_link: "https://github.com/Armada6199/Book-heaven",
+      deployed_live_link:'https://github.com/Armada6199/Book-heaven'
     },
   ];
   
