@@ -2,13 +2,18 @@ import React from 'react'
 import {motion} from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import { Line } from '@react-three/drei';
+import { Link } from 'react-router-dom';
+import myPDF from '/resources/MOHAMAD_ABDEEN_Resume.pdf'
+
 const Hero = () => {
+ 
   return (
    <section className='relative flex flex-col w-full h-screen mx-auto '>
     <div 
     className={`${styles.paddingX}
-     relative inset-0 top-[100px] 
-     max-w-7xl max-h-[30%] sm:max-h-[200px] mx-auto flex flex-row items-start justify-between
+     relative inset-0 top-[100px]
+     max-w-7xl min-h-[50%] max-h-[50%] sm:max-h-[200px] mx-auto flex flex-row items-start justify-between
      gap-5 `}>
       <div className='flex flex-col justify-center items-center mt-5 '>
         <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
@@ -17,16 +22,21 @@ const Hero = () => {
       {/* custom Name and classes wit custom colors   */}
       <div className=''>
         <h1 className={`${styles.heroHeadText} text-white`}
-        // eslint-disable-next-line react/no-unescaped-entities
         >Hi ,I 'm <span className='text-[#915eff]'>Mohamad</span>
         </h1>
           {/* here You can add the custom bio about the user */}
         <p className={`${styles.heroSubText}
         text-white-100
         `}>
-              I'm A Computer Science Graduate With a proven ability to collaborate effectively,<br className='sm:block hidden'/> I
-              specialize in Front-End Development.
+              A Full Stack JavaScript Developer
         </p>
+        <a href={myPDF} download='Resume'>
+        <button 
+           className='w-[70%] h-[45px] md:w-[40%]  bg-white text-[#7638fa] font-bold text-lg cursor-pointer  rounded-lg mt-7 '
+          >
+          Download Resume 
+          </button>
+        </a>
       </div>
     </div>
       <ComputersCanvas/>

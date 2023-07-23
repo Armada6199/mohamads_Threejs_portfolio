@@ -121,10 +121,10 @@ import {
       iconBg: "#383E56",
       date: "OCT 20 19- FEB 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Algorithms and Data Structures",
+        "Software Development",
+        "Computer Architecture:",
+        "Networking",
       ],
     },
     {
@@ -134,10 +134,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Strengthened communication skills through regular interactions with others.",
+        "Completed multiple courses in Frontend Development to enhance skills and knowledge.",
       ],
     },
     {
@@ -147,10 +145,9 @@ import {
       iconBg: "#000",
       date: "APRIL 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to  other developers.",
+        "gained expertise in various aspects of full-stack development, including front-end technologies like JavaScript, React.js, HTML, and CSS.",
+        "On the back-end, I mastered Node.js, Express.js, and database management using Postgres. ",
+        "honed my skills in building RESTful APIs, implementing real-time communication with WebSockets, and deploying applications using tools like Render and Netlify.",
       ],
     },
   ];
